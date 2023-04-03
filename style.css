@@ -146,7 +146,7 @@ nav div>h2{
     height: 800px;
     position: relative;
     display: flex;
-    background-image: url(Assets/Images/background1.PNG);
+    background-image: url(Assets/Images/rode-nt1-5g-silver-home-studio-profile-webbanner-13473x4912-rgb-1921x700-8c89d38.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -222,18 +222,14 @@ nav div>h2{
 }
 
 .container.two{
-    background-image: url(Assets/Images/background2.PNG);
+    background-image: url(Assets/Images/rode-nth100m-home-header-1920x700-rgb\ \(1\).jpg);
 }
 .container.tree{
-    background-image: url(Assets/Images/background3.PNG);
+    background-image: url(Assets/Images/vmgoii-homepage-banner-3.png);
 }
 .container.four{
-    background-image: url(Assets/Images/backbround4.PNG);
+    background-image: url(Assets/Images/RODEX_Launch-Website-Banners_1920x700_6.jpg);
 }
-.container.five{
-    background-image: url(Assets/Images/background2.PNG);
-}
-
 .column.left{
     left: 13%;
     right: none;
@@ -325,18 +321,22 @@ nav div>h2{
 .categories>div{
     height: 307px;
     width: 1210px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
 }
 .microphones{
-    background-image: url(Assets/Images/Microphones-rgb.png);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
+    background-image: url(Assets/Images/images_page_1_modules_5357_microphones-module-1200x300-rgb.png);
 }
-.Mixer{
-    background-image: url(Assets/Images/mixer.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
+.mixer{
+    background-image: url(Assets/Images/images_page_1_modules_5359_interfaces-module-2022-1200x300-rgb.jpg);
+}
+.software{
+    background-image: url(Assets/Images/images_page_1_modules_5361_software-module-2021-1200x300-rgb.png);
+}
+.accessories{
+    background-image: url(Assets/Images/images_page_1_modules_5370_accessories-module-2021-1200x300-rgb.png);
 }
 .categories div{
     margin-bottom: 30px;
@@ -424,8 +424,20 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
+.credits:first-child+{
+    margin-right: 20px;
+}
 .credits img{
-    height: 40px;
+    height: 23px;
+}
+.social-media{
+    width: 370px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 /* universal tools */
