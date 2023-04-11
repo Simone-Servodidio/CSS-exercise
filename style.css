@@ -97,6 +97,33 @@ body{
     font-weight: 900;
     font-stretch: expanded;
 }
+.logo-small{
+    color: #c4c4c4;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+.logo-small.special{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+}
+.user>div{
+
+}
+.logo-container:hover .logo-small{
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transition: 300ms;
+    color: black;
+}
+.logo-container:hover .logo-small.special{
+    transition: 300ms;
+    color: rgb(177, 3, 3);
+}
 #container{
     height: 100%;
     width: 1000px;
@@ -109,6 +136,7 @@ nav div>h2{
     height: 33px;
     padding: 8px 24px;
     font-size: 14px;
+    font-weight: 400;
     cursor: pointer;
 }
 .search{
@@ -156,9 +184,16 @@ nav div>h2{
     height: 100%;
     position: absolute;
     top: 0;
-    right:13%;
     display: flex;
     align-items: center;
+}
+.column.left{
+    left: 13%;
+    right: none;
+}
+.column.right{
+    right:13%;
+    right: none;
 }
 .column:first-child{
     text-align: center;
@@ -249,6 +284,7 @@ nav div>h2{
 .container.tree .column .description.special{
     color: black;
 }
+/* contanier four "rode x" special settings */
 .container.four{
     background-image: url(Assets/Images/RODEX_Launch-Website-Banners_1920x700_6.jpg);
 }
@@ -260,20 +296,29 @@ nav div>h2{
     font-size: 18px;
     color: white;
 }
-.column.left{
-    left: 13%;
-    right: none;
-}
 .container.four{
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+.punchline.special{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform:uppercase;
+    letter-spacing: 8px;
+}
+.product-name.special{
+    font-size: 90px;
+    font-weight: 700;
+}
+.special-graphics{
+    color: crimson;
+    font-size: 300px;
+    font-weight: 800;
+}
 .button.special{
     background-color: black;
     color: rgb(177, 3, 3);
-    position: relative;
-    bottom: 220px;
 }
 .button.special:hover{
     background-color: white;
@@ -469,7 +514,10 @@ footer{
     font-size: 15px;
     font-weight: 700;
 }
-
+.social-media .link:hover{
+    transition: 200ms ease-out; 
+    height:29px ;
+}
 /* universal tools */
 .flexCenter{
     display: flex;
@@ -483,4 +531,7 @@ footer{
 .align-items-center{
     display: flex;
     align-items: center;
+}
+.pointer{
+    cursor: pointer;
 }

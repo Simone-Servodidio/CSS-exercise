@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rode.com</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="Media queries" href="media-queries.css">
     <link rel="shortcut icon" href="Assets/Icons/SABBIA.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500&display=swap');
       </style>
@@ -25,7 +23,9 @@
                 <span>▿</span>
             </div>
             <div class="user">
-                <img class="icon" src="Assets/Images/RodeX.PNG" alt="Rode X">
+                <div class="logo-container align-items-center">
+                    <span class="logo-small">RØDE</span> <span class="logo-small special">X</span>
+                </div>
                 <img class="icon" src="Assets/Icons/user.png" alt="user icon">
             </div>
             <div class="dropdown languages">
@@ -44,7 +44,6 @@
         <!-- navbar section -->
         <nav class="navbar">
             <h1 class="logo">RØDE</h1>
-            <!-- <img class="logo" src="Assets/Images/rode logo.PNG" alt="Logo image"> -->
             <div id="container">
                 <h2>PRODOTTI</h2>
                 <h2>GUIDE UTENTE</h2>
@@ -118,13 +117,13 @@
                 </div>
             </div>
         </div>
-        <div class="container four">
-            <div class="justify-content-center align-items-center">
-                <div class=" product align-items-center justify-content-center">
-                    <h2 class="subtitle special">Streamers and gamers</h2>
-                    <h2 class="product-name">RØDE X</h2>
+        <div class="container four ">
+            <div class="column justify-content-center">
+                <h2 class="punchline special">Streamers And Gamers</h2>
+                <div class="buttons align-items-center">
+                    <h2 class="product-name special">RØDE </h2>
+                    <span class="special-graphics">X</span>
                 </div>
-                <h2 class="button special">Learn More</h2>
             </div>
         </div>
     </section> 
@@ -221,17 +220,19 @@
             </div>
         </div>
         <div class="credits">
-            <h5>© 2023 RØDE. Tutti i diritti riservati.</h5>
-            <h5>Informativa sulla privacy | Termini e condizioni</h5>
+            <a class="pointer">© 2023 RØDE. Tutti i diritti riservati.</a>
+            <a class="pointer">Informativa sulla privacy | Termini e condizioni</a>
             <div class="social-media">
-                <img src="Assets/Icons/facebook.png" alt="facebook link">
-                <img src="Assets/Icons/twitter.png" alt="facebook link">
-                <img src="Assets/Icons/instagram.png" alt="facebook link">
-                <img src="Assets/Icons/youtube.png" alt="facebook link">
-                <img src="Assets/Icons/tik-tok.png" alt="facebook link">
-                <img src="Assets/Icons/twitch.png" alt="facebook link">
-                <img src="Assets/Icons/discord.png" alt="facebook link">
-                <span>RØDE X</span>
+                <img class="pointer link" src="Assets/Icons/facebook.png" alt="facebook link">
+                <img class="pointer link" src="Assets/Icons/twitter.png" alt="facebook link">
+                <img class="pointer link"src="Assets/Icons/instagram.png" alt="facebook link">
+                <img class="pointer link" src="Assets/Icons/youtube.png" alt="facebook link">
+                <img class="pointer link" src="Assets/Icons/tik-tok.png" alt="facebook link">
+                <img class="pointer link" src="Assets/Icons/twitch.png" alt="facebook link">
+                <img class="pointer link" src="Assets/Icons/discord.png" alt="facebook link">
+                <div class="logo-container align-items-center">
+                    <span class="logo-small">RØDE</span> <span class="logo-small special">X</span>
+                </div>
             </div>
         </div>
     </footer>
